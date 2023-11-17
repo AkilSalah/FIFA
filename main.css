@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+}
+
+
+/* .grp{
+    background: url(IMG/Qatar-2022-s-32-teams-graphic.webp);
+} */
+.containe {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+  }
+  nav{
+    z-index: 1;
+  }
+  h1, h4 {
+    font-size: 2rem; 
+}
